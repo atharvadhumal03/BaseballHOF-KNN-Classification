@@ -60,14 +60,14 @@ Test set: 93 samples
 - Applied RobustScaler to minimize the influence of outliers on feature scaling
 - Test data transformed using scaling parameters learned from training data to prevent data leakage
 
-## 3. Model Development
+### 3. Model Development
 - Algorithm: K-Nearest Neighbors classifier
 - Hyperparameter tuning: Tested k values from 1 to 20
 - Used 5-fold cross-validation to identify optimal k
 - Selected k=11 based on highest average cross-validation accuracy
 - Distance metric: Euclidean distance (default)
 
-## 4. Model Evaluation
+### 4. Model Evaluation
 Comprehensive evaluation revealed conservative prediction behavior:
 
 - High precision (90%) but moderate recall (68%) for HOF predictions
