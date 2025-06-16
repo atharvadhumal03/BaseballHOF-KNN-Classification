@@ -6,8 +6,10 @@ This directory contains all visualizations generated from the Baseball Hall of F
 
 ### 1. feature_box_plots.png
 **Description**: Box plots showing all the outliers, Q1, Q3 and median in every feature
+
 **Purpose**: Visualize outliers in each feature
-- **Key Insight**: Clear outlier detection hence features will require scaling
+
+**Key Insight**: Clear outlier detection hence features will require scaling
 
 ### 2. confusion_matrix.png
 **Description**: 3x3 confusion matrix heatmap showing prediction results
